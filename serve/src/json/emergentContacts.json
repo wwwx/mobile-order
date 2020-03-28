@@ -1,0 +1,31 @@
+{
+  "code": "0",
+  "msg": "success",
+  "data": {
+    "body": [
+      {
+        "contactAddr": null,
+        "contactName": "Nike",
+        "relationValue": "Father",
+        "contactPhone": "21454545555"
+      },
+      {
+        "contactAddr": null,
+        "contactName": "Mary",
+        "relationValue": "Wife",
+        "contactPhone": "123333332224"
+      },
+      {
+        "contactAddr": null,
+        "contactName": "Wudi",
+        "relationValue": "Brother",
+        "contactPhone": "346665555566"
+      }
+    ],
+    "total": 5,
+    "size": 10,
+    "current": 1,
+    "searchCount": true,
+    "pages": 1
+  }
+}

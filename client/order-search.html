@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,user-scalable=0,viewport-fit=cover"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/bootstrap/cust-bootstrap.css" />
+    <link rel="stylesheet" href="css/order.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="fixed-top bg-dark">
+        <div class="container-fluid py-3 search">
+          <div class="input-group">
+            <input
+              id="orderID"
+              type="number"
+              class="form-control"
+              placeholder="Order ID"
+              autofocus="autofocus"
+              onKeypress="return(/[\d]/.test(String.fromCharCode(event.keyCode)))"
+            />
+            <span class="input-group-btn">
+              <button id="searchBtn" class="btn btn-default" type="button">
+                Search
+              </button>
+            </span>
+          </div>
+          <!-- /input-group -->
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid mt-4">
+      <div class="panel panel-info" id="customerIdentity">
+        <div class="panel-heading">Customer Identity</div>
+        <div class="panel-body">
+          <ul class="list"></ul>
+        </div>
+      </div>
+      <div class="panel panel-warning" id="emergentContact">
+        <div class="panel-heading">Emergent Contacts</div>
+        <div class="panel-body">
+          <table class="table mb-0">
+            <thead>
+              <tr>
+                <td>Content name</td>
+                <td>Content relationship</td>
+                <td>Content number</td>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <div class="panel-footer hide">
+          <nav aria-label="...">
+            <ul class="pager m-0">
+              <li class="previous disabled">
+                <a href="javascript:;"
+                  ><span aria-hidden="true">&larr;</span> Previous</a
+                >
+              </li>
+              <li class="next">
+                <a href="javascript:;"
+                  >Next <span aria-hidden="true">&rarr;</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="panel panel-success" id="socialRelationship">
+        <div class="panel-heading">Social Relationship</div>
+        <div class="panel-body">
+          <table class="table mb-0">
+            <thead>
+              <tr>
+                <td>Content name</td>
+                <td>Content number</td>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <div class="panel-footer hide">
+          <nav aria-label="...">
+            <ul class="pager m-0">
+              <li class="previous disabled">
+                <a href="javascript:;"
+                  ><span aria-hidden="true">&larr;</span> Previous</a
+                >
+              </li>
+              <li class="next">
+                <a href="javascript:;"
+                  >Next <span aria-hidden="true">&rarr;</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+    <script src="js/emit.js"></script>
+    <script src="js/order.js"></script>
+  </body>
+</html>

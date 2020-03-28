@@ -1,0 +1,23 @@
+{
+  "code": "0",
+  "msg": "success",
+  "data": {
+    "records": [
+      {
+        "realName": "Hallen Hah",
+        "gender": "Male",
+        "age": 44,
+        "mbPhone": 4154444444,
+        "aadharCard": 234234434,
+        "birthDate": "2011-11-11",
+        "address": "22222-1700000001978219",
+        "companyAddress": "hello world;"
+      }
+    ],
+    "total": 1,
+    "size": 10,
+    "current": 1,
+    "searchCount": true,
+    "pages": 1
+  }
+}
